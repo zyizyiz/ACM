@@ -59,6 +59,7 @@
 		56DF548821512D7F00F30EA9 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				56DF54932151DBD000F30EA9 /* 2. 两数相加 */,
 				56DF549021512D8600F30EA9 /* 1. 两数之和 */,
 				56DF548921512D7F00F30EA9 /* main.swift */,
 			);
@@ -71,6 +72,13 @@
 				56DF549121512DD200F30EA9 /* oneSum.swift */,
 			);
 			path = "1. 两数之和";
+			sourceTree = "<group>";
+		};
+		56DF54932151DBD000F30EA9 /* 2. 两数相加 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2. 两数相加";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
