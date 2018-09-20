@@ -25,3 +25,7 @@ twoAdd.addTwoNumbers(nil,l11)?.twoPrint()
 let l22 = twoListNode.init(5)
 twoAdd.addTwoNumbers(l22,l22)?.twoPrint()
 
+///3. 无重复字符的最长子串
+print("---------------------")
+print(threeString.lengthOfLongestSubstring("pwwkew"))
+

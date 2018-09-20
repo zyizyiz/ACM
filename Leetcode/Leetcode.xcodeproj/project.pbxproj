@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		568735E22153323800F175AF /* threeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568735E12153323800F175AF /* threeString.swift */; };
 		56DF548A21512D7F00F30EA9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF548921512D7F00F30EA9 /* main.swift */; };
 		56DF549221512DD200F30EA9 /* oneSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF549121512DD200F30EA9 /* oneSum.swift */; };
 		56DF54962151DCB000F30EA9 /* twoAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF54952151DCB000F30EA9 /* twoAdd.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		568735E12153323800F175AF /* threeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeString.swift; sourceTree = "<group>"; };
 		56DF548621512D7F00F30EA9 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DF548921512D7F00F30EA9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		56DF549121512DD200F30EA9 /* oneSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneSum.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		568735E02153322100F175AF /* 3. 无重复字符的最长子串 */ = {
+			isa = PBXGroup;
+			children = (
+				568735E12153323800F175AF /* threeString.swift */,
+			);
+			path = "3. 无重复字符的最长子串";
+			sourceTree = "<group>";
+		};
 		56DF547D21512D7F00F30EA9 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 		56DF548821512D7F00F30EA9 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				568735E02153322100F175AF /* 3. 无重复字符的最长子串 */,
 				56DF54932151DBD000F30EA9 /* 2. 两数相加 */,
 				56DF549021512D8600F30EA9 /* 1. 两数之和 */,
 				56DF548921512D7F00F30EA9 /* main.swift */,
@@ -147,6 +158,7 @@
 				56DF54982151DCDE00F30EA9 /* twoListNode.swift in Sources */,
 				56DF549221512DD200F30EA9 /* oneSum.swift in Sources */,
 				56DF548A21512D7F00F30EA9 /* main.swift in Sources */,
+				568735E22153323800F175AF /* threeString.swift in Sources */,
 				56DF54962151DCB000F30EA9 /* twoAdd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
