@@ -29,3 +29,8 @@ twoAdd.addTwoNumbers(l22,l22)?.twoPrint()
 print("---------------------")
 print(threeString.lengthOfLongestSubstring("pwwkew"))
 
+///5. 最长回文子串
+print("---------------------")
+print(fiveString.longestPalindrome("cbbdc"))
+
+
