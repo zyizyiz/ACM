@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		567A1AFE215481AD00DE3701 /* fourMedian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A1AFD215481AD00DE3701 /* fourMedian.swift */; };
 		567A1B01215484B100DE3701 /* fiveString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A1B00215484B100DE3701 /* fiveString.swift */; };
+		567A1B5D215499B300DE3701 /* sevenReversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A1B5C215499B300DE3701 /* sevenReversal.swift */; };
 		568735E22153323800F175AF /* threeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568735E12153323800F175AF /* threeString.swift */; };
 		56DF548A21512D7F00F30EA9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF548921512D7F00F30EA9 /* main.swift */; };
 		56DF549221512DD200F30EA9 /* oneSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF549121512DD200F30EA9 /* oneSum.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		567A1AFD215481AD00DE3701 /* fourMedian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourMedian.swift; sourceTree = "<group>"; };
 		567A1B00215484B100DE3701 /* fiveString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiveString.swift; sourceTree = "<group>"; };
+		567A1B5C215499B300DE3701 /* sevenReversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevenReversal.swift; sourceTree = "<group>"; };
 		568735E12153323800F175AF /* threeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeString.swift; sourceTree = "<group>"; };
 		56DF548621512D7F00F30EA9 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DF548921512D7F00F30EA9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 			path = "5. 最长回文子串";
 			sourceTree = "<group>";
 		};
+		567A1B5B2154998400DE3701 /* 7. 反转整数 */ = {
+			isa = PBXGroup;
+			children = (
+				567A1B5C215499B300DE3701 /* sevenReversal.swift */,
+			);
+			path = "7. 反转整数";
+			sourceTree = "<group>";
+		};
 		568735E02153322100F175AF /* 3. 无重复字符的最长子串 */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +103,7 @@
 		56DF548821512D7F00F30EA9 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				567A1B5B2154998400DE3701 /* 7. 反转整数 */,
 				567A1AFF2154848300DE3701 /* 5. 最长回文子串 */,
 				567A1AFC2154813300DE3701 /* 4. 两个排序数组的中位数 */,
 				568735E02153322100F175AF /* 3. 无重复字符的最长子串 */,
@@ -180,6 +191,7 @@
 				56DF54982151DCDE00F30EA9 /* twoListNode.swift in Sources */,
 				56DF549221512DD200F30EA9 /* oneSum.swift in Sources */,
 				56DF548A21512D7F00F30EA9 /* main.swift in Sources */,
+				567A1B5D215499B300DE3701 /* sevenReversal.swift in Sources */,
 				567A1AFE215481AD00DE3701 /* fourMedian.swift in Sources */,
 				567A1B01215484B100DE3701 /* fiveString.swift in Sources */,
 				568735E22153323800F175AF /* threeString.swift in Sources */,

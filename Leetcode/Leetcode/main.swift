@@ -34,3 +34,9 @@ print("---------------------")
 print(fiveString.longestPalindrome("cbbdc"))
 
 
+///7. 反转整数
+print("---------------------")
+print(sevenReversal.reverse(123))
+
+
+
