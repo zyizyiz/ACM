@@ -15,6 +15,8 @@
 		56DF549221512DD200F30EA9 /* oneSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF549121512DD200F30EA9 /* oneSum.swift */; };
 		56DF54962151DCB000F30EA9 /* twoAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF54952151DCB000F30EA9 /* twoAdd.swift */; };
 		56DF54982151DCDE00F30EA9 /* twoListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF54972151DCDE00F30EA9 /* twoListNode.swift */; };
+		56E4BCE82159C72C00A8D07A /* nineString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E4BCE72159C72C00A8D07A /* nineString.swift */; };
+		56E4BCEB2159CC9100A8D07A /* thirteenRome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E4BCEA2159CC9100A8D07A /* thirteenRome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +41,8 @@
 		56DF549121512DD200F30EA9 /* oneSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneSum.swift; sourceTree = "<group>"; };
 		56DF54952151DCB000F30EA9 /* twoAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoAdd.swift; sourceTree = "<group>"; };
 		56DF54972151DCDE00F30EA9 /* twoListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoListNode.swift; sourceTree = "<group>"; };
+		56E4BCE72159C72C00A8D07A /* nineString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nineString.swift; sourceTree = "<group>"; };
+		56E4BCEA2159CC9100A8D07A /* thirteenRome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirteenRome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		56DF548821512D7F00F30EA9 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				56E4BCE92159CC6500A8D07A /* 13. 罗马数字转整数 * */,
 				56E4BCE62159C5F100A8D07A /* 9. 回文数 * */,
 				567A1B5B2154998400DE3701 /* 7. 反转整数 * */,
 				567A1AFF2154848300DE3701 /* 5. 最长回文子串 ** */,
@@ -135,8 +140,17 @@
 		56E4BCE62159C5F100A8D07A /* 9. 回文数 * */ = {
 			isa = PBXGroup;
 			children = (
+				56E4BCE72159C72C00A8D07A /* nineString.swift */,
 			);
 			path = "9. 回文数 *";
+			sourceTree = "<group>";
+		};
+		56E4BCE92159CC6500A8D07A /* 13. 罗马数字转整数 * */ = {
+			isa = PBXGroup;
+			children = (
+				56E4BCEA2159CC9100A8D07A /* thirteenRome.swift */,
+			);
+			path = "13. 罗马数字转整数 *";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,12 +211,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				56DF54982151DCDE00F30EA9 /* twoListNode.swift in Sources */,
+				56E4BCEB2159CC9100A8D07A /* thirteenRome.swift in Sources */,
 				56DF549221512DD200F30EA9 /* oneSum.swift in Sources */,
 				56DF548A21512D7F00F30EA9 /* main.swift in Sources */,
 				567A1B5D215499B300DE3701 /* sevenReversal.swift in Sources */,
 				567A1AFE215481AD00DE3701 /* fourMedian.swift in Sources */,
 				567A1B01215484B100DE3701 /* fiveString.swift in Sources */,
 				568735E22153323800F175AF /* threeString.swift in Sources */,
+				56E4BCE82159C72C00A8D07A /* nineString.swift in Sources */,
 				56DF54962151DCB000F30EA9 /* twoAdd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
