@@ -52,36 +52,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		567A1AFC2154813300DE3701 /* 4. 两个排序数组的中位数 */ = {
+		567A1AFC2154813300DE3701 /* 4. 两个排序数组的中位数 *** */ = {
 			isa = PBXGroup;
 			children = (
 				567A1AFD215481AD00DE3701 /* fourMedian.swift */,
 			);
-			path = "4. 两个排序数组的中位数";
+			path = "4. 两个排序数组的中位数 ***";
 			sourceTree = "<group>";
 		};
-		567A1AFF2154848300DE3701 /* 5. 最长回文子串 */ = {
+		567A1AFF2154848300DE3701 /* 5. 最长回文子串 ** */ = {
 			isa = PBXGroup;
 			children = (
 				567A1B00215484B100DE3701 /* fiveString.swift */,
 			);
-			path = "5. 最长回文子串";
+			path = "5. 最长回文子串 **";
 			sourceTree = "<group>";
 		};
-		567A1B5B2154998400DE3701 /* 7. 反转整数 */ = {
+		567A1B5B2154998400DE3701 /* 7. 反转整数 * */ = {
 			isa = PBXGroup;
 			children = (
 				567A1B5C215499B300DE3701 /* sevenReversal.swift */,
 			);
-			path = "7. 反转整数";
+			path = "7. 反转整数 *";
 			sourceTree = "<group>";
 		};
-		568735E02153322100F175AF /* 3. 无重复字符的最长子串 */ = {
+		568735E02153322100F175AF /* 3. 无重复字符的最长子串 ** */ = {
 			isa = PBXGroup;
 			children = (
 				568735E12153323800F175AF /* threeString.swift */,
 			);
-			path = "3. 无重复字符的最长子串";
+			path = "3. 无重复字符的最长子串 **";
 			sourceTree = "<group>";
 		};
 		56DF547D21512D7F00F30EA9 = {
@@ -103,32 +103,40 @@
 		56DF548821512D7F00F30EA9 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				567A1B5B2154998400DE3701 /* 7. 反转整数 */,
-				567A1AFF2154848300DE3701 /* 5. 最长回文子串 */,
-				567A1AFC2154813300DE3701 /* 4. 两个排序数组的中位数 */,
-				568735E02153322100F175AF /* 3. 无重复字符的最长子串 */,
-				56DF54932151DBD000F30EA9 /* 2. 两数相加 */,
-				56DF549021512D8600F30EA9 /* 1. 两数之和 */,
+				56E4BCE62159C5F100A8D07A /* 9. 回文数 * */,
+				567A1B5B2154998400DE3701 /* 7. 反转整数 * */,
+				567A1AFF2154848300DE3701 /* 5. 最长回文子串 ** */,
+				567A1AFC2154813300DE3701 /* 4. 两个排序数组的中位数 *** */,
+				568735E02153322100F175AF /* 3. 无重复字符的最长子串 ** */,
+				56DF54932151DBD000F30EA9 /* 2. 两数相加 ** */,
+				56DF549021512D8600F30EA9 /* 1. 两数之和 * */,
 				56DF548921512D7F00F30EA9 /* main.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
 		};
-		56DF549021512D8600F30EA9 /* 1. 两数之和 */ = {
+		56DF549021512D8600F30EA9 /* 1. 两数之和 * */ = {
 			isa = PBXGroup;
 			children = (
 				56DF549121512DD200F30EA9 /* oneSum.swift */,
 			);
-			path = "1. 两数之和";
+			path = "1. 两数之和 *";
 			sourceTree = "<group>";
 		};
-		56DF54932151DBD000F30EA9 /* 2. 两数相加 */ = {
+		56DF54932151DBD000F30EA9 /* 2. 两数相加 ** */ = {
 			isa = PBXGroup;
 			children = (
 				56DF54952151DCB000F30EA9 /* twoAdd.swift */,
 				56DF54972151DCDE00F30EA9 /* twoListNode.swift */,
 			);
-			path = "2. 两数相加";
+			path = "2. 两数相加 **";
+			sourceTree = "<group>";
+		};
+		56E4BCE62159C5F100A8D07A /* 9. 回文数 * */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "9. 回文数 *";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
