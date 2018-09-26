@@ -48,3 +48,8 @@ print(nineString.isPalindrome(1))
 print("---------------------")
 print(thirteenRome.romanToInt("MCMXCIV"))
 
+
+///14. 最长公共前缀 *
+print("---------------------")
+print(fourteenPrefix.longestCommonPrefix(["caa","","a","acb"]))
+
