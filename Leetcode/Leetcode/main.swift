@@ -53,3 +53,8 @@ print(thirteenRome.romanToInt("MCMXCIV"))
 print("---------------------")
 print(fourteenPrefix.longestCommonPrefix(["caa","","a","acb"]))
 
+
+///20. 有效的括号 *
+print("---------------------")
+print(twentyValid.isValid("]"))
+

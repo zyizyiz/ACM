@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		561D4C1E215C66220094B37B /* twentyValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D4C1D215C66220094B37B /* twentyValid.swift */; };
 		566678DA215B197500E3104F /* fourteenPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566678D9215B197500E3104F /* fourteenPrefix.swift */; };
 		567A1AFE215481AD00DE3701 /* fourMedian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A1AFD215481AD00DE3701 /* fourMedian.swift */; };
 		567A1B01215484B100DE3701 /* fiveString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A1B00215484B100DE3701 /* fiveString.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		561D4C1D215C66220094B37B /* twentyValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twentyValid.swift; sourceTree = "<group>"; };
 		566678D9215B197500E3104F /* fourteenPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourteenPrefix.swift; sourceTree = "<group>"; };
 		567A1AFD215481AD00DE3701 /* fourMedian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourMedian.swift; sourceTree = "<group>"; };
 		567A1B00215484B100DE3701 /* fiveString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiveString.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		561D4C1C215C65EA0094B37B /* 20. 有效的括号 * */ = {
+			isa = PBXGroup;
+			children = (
+				561D4C1D215C66220094B37B /* twentyValid.swift */,
+			);
+			path = "20. 有效的括号 *";
+			sourceTree = "<group>";
+		};
 		566678D7215B193C00E3104F /* 14. 最长公共前缀 * */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +127,7 @@
 		56DF548821512D7F00F30EA9 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				561D4C1C215C65EA0094B37B /* 20. 有效的括号 * */,
 				566678D7215B193C00E3104F /* 14. 最长公共前缀 * */,
 				56E4BCE92159CC6500A8D07A /* 13. 罗马数字转整数 * */,
 				56E4BCE62159C5F100A8D07A /* 9. 回文数 * */,
@@ -232,6 +243,7 @@
 				568735E22153323800F175AF /* threeString.swift in Sources */,
 				56E4BCE82159C72C00A8D07A /* nineString.swift in Sources */,
 				56DF54962151DCB000F30EA9 /* twoAdd.swift in Sources */,
+				561D4C1E215C66220094B37B /* twentyValid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
