@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56190F72216C3C1C0027529A /* twenty-sixRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56190F71216C3C1C0027529A /* twenty-sixRemove.swift */; };
 		561D4C1E215C66220094B37B /* twentyValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D4C1D215C66220094B37B /* twentyValid.swift */; };
 		566678DA215B197500E3104F /* fourteenPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566678D9215B197500E3104F /* fourteenPrefix.swift */; };
 		567A1AFE215481AD00DE3701 /* fourMedian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A1AFD215481AD00DE3701 /* fourMedian.swift */; };
 		567A1B01215484B100DE3701 /* fiveString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A1B00215484B100DE3701 /* fiveString.swift */; };
 		567A1B5D215499B300DE3701 /* sevenReversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A1B5C215499B300DE3701 /* sevenReversal.swift */; };
 		568735E22153323800F175AF /* threeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568735E12153323800F175AF /* threeString.swift */; };
+		5696189B215DB4FA0070149C /* twenty-oneLinked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696189A215DB4FA0070149C /* twenty-oneLinked.swift */; };
+		5696189D215DB51F0070149C /* twenty-oneListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696189C215DB51F0070149C /* twenty-oneListNode.swift */; };
 		56DF548A21512D7F00F30EA9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF548921512D7F00F30EA9 /* main.swift */; };
 		56DF549221512DD200F30EA9 /* oneSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF549121512DD200F30EA9 /* oneSum.swift */; };
 		56DF54962151DCB000F30EA9 /* twoAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF54952151DCB000F30EA9 /* twoAdd.swift */; };
@@ -34,12 +37,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		56190F71216C3C1C0027529A /* twenty-sixRemove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "twenty-sixRemove.swift"; sourceTree = "<group>"; };
 		561D4C1D215C66220094B37B /* twentyValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twentyValid.swift; sourceTree = "<group>"; };
 		566678D9215B197500E3104F /* fourteenPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourteenPrefix.swift; sourceTree = "<group>"; };
 		567A1AFD215481AD00DE3701 /* fourMedian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourMedian.swift; sourceTree = "<group>"; };
 		567A1B00215484B100DE3701 /* fiveString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiveString.swift; sourceTree = "<group>"; };
 		567A1B5C215499B300DE3701 /* sevenReversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevenReversal.swift; sourceTree = "<group>"; };
 		568735E12153323800F175AF /* threeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeString.swift; sourceTree = "<group>"; };
+		5696189A215DB4FA0070149C /* twenty-oneLinked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "twenty-oneLinked.swift"; sourceTree = "<group>"; };
+		5696189C215DB51F0070149C /* twenty-oneListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "twenty-oneListNode.swift"; sourceTree = "<group>"; };
 		56DF548621512D7F00F30EA9 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DF548921512D7F00F30EA9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		56DF549121512DD200F30EA9 /* oneSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneSum.swift; sourceTree = "<group>"; };
@@ -60,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56190F70216C3BEC0027529A /* 26. 删除排序数组中的重复项 * */ = {
+			isa = PBXGroup;
+			children = (
+				56190F71216C3C1C0027529A /* twenty-sixRemove.swift */,
+			);
+			path = "26. 删除排序数组中的重复项 *";
+			sourceTree = "<group>";
+		};
 		561D4C1C215C65EA0094B37B /* 20. 有效的括号 * */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +122,15 @@
 			path = "3. 无重复字符的最长子串 **";
 			sourceTree = "<group>";
 		};
+		56961898215DB4B40070149C /* 21. 合并两个有序链表 * */ = {
+			isa = PBXGroup;
+			children = (
+				5696189A215DB4FA0070149C /* twenty-oneLinked.swift */,
+				5696189C215DB51F0070149C /* twenty-oneListNode.swift */,
+			);
+			path = "21. 合并两个有序链表 *";
+			sourceTree = "<group>";
+		};
 		56DF547D21512D7F00F30EA9 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +150,8 @@
 		56DF548821512D7F00F30EA9 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				56190F70216C3BEC0027529A /* 26. 删除排序数组中的重复项 * */,
+				56961898215DB4B40070149C /* 21. 合并两个有序链表 * */,
 				561D4C1C215C65EA0094B37B /* 20. 有效的括号 * */,
 				566678D7215B193C00E3104F /* 14. 最长公共前缀 * */,
 				56E4BCE92159CC6500A8D07A /* 13. 罗马数字转整数 * */,
@@ -235,12 +260,15 @@
 				56DF54982151DCDE00F30EA9 /* twoListNode.swift in Sources */,
 				56E4BCEB2159CC9100A8D07A /* thirteenRome.swift in Sources */,
 				56DF549221512DD200F30EA9 /* oneSum.swift in Sources */,
+				5696189D215DB51F0070149C /* twenty-oneListNode.swift in Sources */,
 				56DF548A21512D7F00F30EA9 /* main.swift in Sources */,
 				567A1B5D215499B300DE3701 /* sevenReversal.swift in Sources */,
 				567A1AFE215481AD00DE3701 /* fourMedian.swift in Sources */,
 				566678DA215B197500E3104F /* fourteenPrefix.swift in Sources */,
 				567A1B01215484B100DE3701 /* fiveString.swift in Sources */,
+				56190F72216C3C1C0027529A /* twenty-sixRemove.swift in Sources */,
 				568735E22153323800F175AF /* threeString.swift in Sources */,
+				5696189B215DB4FA0070149C /* twenty-oneLinked.swift in Sources */,
 				56E4BCE82159C72C00A8D07A /* nineString.swift in Sources */,
 				56DF54962151DCB000F30EA9 /* twoAdd.swift in Sources */,
 				561D4C1E215C66220094B37B /* twentyValid.swift in Sources */,

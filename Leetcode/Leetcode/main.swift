@@ -58,3 +58,16 @@ print(fourteenPrefix.longestCommonPrefix(["caa","","a","acb"]))
 print("---------------------")
 print(twentyValid.isValid("]"))
 
+
+///21. 合并两个有序链表 *
+print("---------------------")
+let tol1 = twoListNode.init(val: [-10,-10,-9,-4,1,6,6])
+let tol2 = twoListNode.init(val: [-7])
+twenty_oneLinked.mergeTwoLists(tol1, tol2)?.twentyOnePrint()
+print("xxxxxxxxxxxx")
+
+
+
+///26. 删除排序数组中的重复项  *
+print("---------------------")
+print(twenty_sixRemove.removeDuplicates(&[1]))

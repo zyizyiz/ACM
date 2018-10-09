@@ -17,8 +17,15 @@ class twoListNode: NSObject {
     }
     
     public init(val : [Int]) {
-        self.val = val[0]
-        self.next = twoListNode.init(val[1])
+        if val.count != 0 {
+            self.val = val[0]
+        }else {
+            
+            self.val = 0
+        }
+        if val.count > 1 {
+            self.next = twoListNode.init(val[1])
+        }
         if val.count == 3 {
             self.next?.next = twoListNode.init(val[2])
         }
@@ -38,5 +45,15 @@ class twoListNode: NSObject {
         }
         let result = "\(self.val)"
         print(result)
+    }
+    
+    public func twentyOnePrint() {
+        var node = self
+        var result = ""
+        while node.next != nil {
+            result += "\(node.val) -> "
+            node = node.next!
+        }
+        print("\(result)\(node.val)")
     }
 }
