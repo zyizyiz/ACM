@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		56190F72216C3C1C0027529A /* twenty-sixRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56190F71216C3C1C0027529A /* twenty-sixRemove.swift */; };
 		561D4C1E215C66220094B37B /* twentyValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D4C1D215C66220094B37B /* twentyValid.swift */; };
+		56377977216D88AE005E6A0A /* twenty-sevenRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56377976216D88AE005E6A0A /* twenty-sevenRemove.swift */; };
 		566678DA215B197500E3104F /* fourteenPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566678D9215B197500E3104F /* fourteenPrefix.swift */; };
 		567A1AFE215481AD00DE3701 /* fourMedian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A1AFD215481AD00DE3701 /* fourMedian.swift */; };
 		567A1B01215484B100DE3701 /* fiveString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A1B00215484B100DE3701 /* fiveString.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		56190F71216C3C1C0027529A /* twenty-sixRemove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "twenty-sixRemove.swift"; sourceTree = "<group>"; };
 		561D4C1D215C66220094B37B /* twentyValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twentyValid.swift; sourceTree = "<group>"; };
+		56377976216D88AE005E6A0A /* twenty-sevenRemove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "twenty-sevenRemove.swift"; sourceTree = "<group>"; };
 		566678D9215B197500E3104F /* fourteenPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourteenPrefix.swift; sourceTree = "<group>"; };
 		567A1AFD215481AD00DE3701 /* fourMedian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourMedian.swift; sourceTree = "<group>"; };
 		567A1B00215484B100DE3701 /* fiveString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiveString.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 				561D4C1D215C66220094B37B /* twentyValid.swift */,
 			);
 			path = "20. 有效的括号 *";
+			sourceTree = "<group>";
+		};
+		56377975216D886D005E6A0A /* 27. 移除元素 * */ = {
+			isa = PBXGroup;
+			children = (
+				56377976216D88AE005E6A0A /* twenty-sevenRemove.swift */,
+			);
+			path = "27. 移除元素 *";
 			sourceTree = "<group>";
 		};
 		566678D7215B193C00E3104F /* 14. 最长公共前缀 * */ = {
@@ -150,6 +160,7 @@
 		56DF548821512D7F00F30EA9 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				56377975216D886D005E6A0A /* 27. 移除元素 * */,
 				56190F70216C3BEC0027529A /* 26. 删除排序数组中的重复项 * */,
 				56961898215DB4B40070149C /* 21. 合并两个有序链表 * */,
 				561D4C1C215C65EA0094B37B /* 20. 有效的括号 * */,
@@ -267,6 +278,7 @@
 				566678DA215B197500E3104F /* fourteenPrefix.swift in Sources */,
 				567A1B01215484B100DE3701 /* fiveString.swift in Sources */,
 				56190F72216C3C1C0027529A /* twenty-sixRemove.swift in Sources */,
+				56377977216D88AE005E6A0A /* twenty-sevenRemove.swift in Sources */,
 				568735E22153323800F175AF /* threeString.swift in Sources */,
 				5696189B215DB4FA0070149C /* twenty-oneLinked.swift in Sources */,
 				56E4BCE82159C72C00A8D07A /* nineString.swift in Sources */,

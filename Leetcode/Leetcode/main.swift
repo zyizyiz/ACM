@@ -67,7 +67,13 @@ twenty_oneLinked.mergeTwoLists(tol1, tol2)?.twentyOnePrint()
 print("xxxxxxxxxxxx")
 
 
-
 ///26. 删除排序数组中的重复项  *
 print("---------------------")
-print(twenty_sixRemove.removeDuplicates(&[1]))
+var tsixNum = [1,1,1,2,3]
+print(twenty_sixRemove.removeDuplicates(&tsixNum))
+
+
+///27. 移除元素 *
+print("---------------------")
+var tsevenNum = [1,1,1,2,3]
+print(twenty_sevenRemove.removeElement(&tsevenNum, 1))
