@@ -81,7 +81,7 @@ void deleteLinkedList(ListNode* head) {
 
 class Solution {
 public:
-    ListNode* removeElements(ListNode* head, int val) {
+    ListNode* removeElements1(ListNode* head, int val) {
         
         // 需要对头结点做特殊处理
         while (head != NULL && head->val == val) {
@@ -107,6 +107,25 @@ public:
         
         return head;
     }
+    
+    ListNode* removeElements2(ListNode* head, int val) {
+        
+        // 创建虚拟头结点
+        ListNode* dummyHead = new ListNode(0);
+        dummyHead->next = head;
+        
+        ListNode* cur = dummyHead;
+        while (cur->next != NULL) {
+            if (cur->next->val == val) {
+                ListNode* delNode = cur->next;
+                cur->next = delNode->next;
+                delete delNode;
+            }else {
+                cur = cur->next;
+            }
+        }
+        return head;
+    }
 };
 
 int main(int argc, const char * argv[]) {
@@ -117,7 +136,7 @@ int main(int argc, const char * argv[]) {
     ListNode* head = createLinkedList(arr, n);
     printLinkedList(head);
     
-    Solution().removeElements(head, 6);
+    Solution().removeElements2(head, 6);
     printLinkedList(head);
     
     deleteLinkedList(head);
