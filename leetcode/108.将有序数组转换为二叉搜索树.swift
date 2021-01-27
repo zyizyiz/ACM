@@ -1,7 +1,7 @@
 /*
- * @lc app=leetcode.cn id=104 lang=swift
+ * @lc app=leetcode.cn id=108 lang=swift
  *
- * [104] 二叉树的最大深度
+ * [108] 将有序数组转换为二叉搜索树
  */
 
 // @lc code=start
@@ -21,11 +21,23 @@
  * }
  */
 class Solution {
-    func maxDepth(_ root: TreeNode?) -> Int {
-        if root == nil {
-            return 0
+    func sortedArrayToBST(_ nums: [Int]) -> TreeNode? {
+        return bst(nums, 0, nums.count - 1)
+           
+    }
+
+    func bst(_ nums: [Int], _ left: Int, _ right: Int) -> TreeNode? {
+        
+        if left > right {
+            return nil;
         }
-        return max(maxDepth(root?.left) + 1,maxDepth(root?.right) + 1)
+
+        let mid : Int = (right + left) / 2
+        let root = TreeNode.init(nums[mid]);
+        root.left = bst(nums, left, mid - 1)
+        root.right = bst(nums, mid + 1, right)
+        return root
+        
     }
 }
 // @lc code=end

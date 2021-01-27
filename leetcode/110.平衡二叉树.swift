@@ -1,7 +1,7 @@
 /*
- * @lc app=leetcode.cn id=104 lang=swift
+ * @lc app=leetcode.cn id=110 lang=swift
  *
- * [104] 二叉树的最大深度
+ * [110] 平衡二叉树
  */
 
 // @lc code=start
@@ -21,11 +21,8 @@
  * }
  */
 class Solution {
-    func maxDepth(_ root: TreeNode?) -> Int {
-        if root == nil {
-            return 0
-        }
-        return max(maxDepth(root?.left) + 1,maxDepth(root?.right) + 1)
+    func isBalanced(_ root: TreeNode?) -> Bool {
+
     }
 }
 // @lc code=end
