@@ -1,7 +1,7 @@
 /*
- * @lc app=leetcode.cn id=110 lang=swift
+ * @lc app=leetcode.cn id=111 lang=swift
  *
- * [110] 平衡二叉树
+ * [111] 二叉树的最小深度
  */
 
 // @lc code=start
@@ -21,30 +21,28 @@
  * }
  */
 class Solution {
-    func isBalanced(_ root: TreeNode?) -> Bool {
+    func minDepth(_ root: TreeNode?) -> Int {
         if root == nil {
-            return true
+             return 0
         }
-        return dfs(root) == -1 ? false : true
+        return dfs(root) + 1
     }
 
     func dfs(_ root: TreeNode?) -> Int {
         if root == nil {
+            return -1
+        }else if root?.left == nil && root?.right == nil {
             return 0
         }
-        let leftDepth = dfs(root?.left)
-        let rightDepth = dfs(root?.right)
 
-        if leftDepth == -1 || rightDepth == -1 {
-            return -1
+        var leftDepth = dfs(root?.right)
+        var rightDepth = dfs(root?.left)
+        if leftDepth == -1 {
+            return rightDepth + 1
+        }else if rightDepth == -1 {
+            return leftDepth + 1
         }
-        if abs(leftDepth - rightDepth) > 1 {
-            return -1
-        }
-        return 1 + max(leftDepth, rightDepth)
-
-        
-
+        return min(leftDepth, rightDepth) + 1
     }
 }
 // @lc code=end
