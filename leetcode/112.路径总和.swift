@@ -22,7 +22,17 @@
  */
 class Solution {
     func hasPathSum(_ root: TreeNode?, _ targetSum: Int) -> Bool {
-
+        if root == nil {
+            return false
+        }
+        let current = targetSum - (root?.val ?? 0)
+        if root?.left == nil && root?.right == nil {
+             return current == 0
+        }
+        
+        let leftTarget = hasPathSum(root?.left, current)
+        let rightTarget = hasPathSum(root?.right, current)
+        return leftTarget || rightTarget
     }
 }
 // @lc code=end
