@@ -60,6 +60,11 @@ str.suffix(3)
 let char = str[str.index(str.startIndex, offsetBy: 1)]
 char.isLetter
 
+let a_ASCII = UnicodeScalar("a")
+let A_ASCII = UnicodeScalar("A")
+let Z_ASCII = UnicodeScalar("Z")
+let A_Int = Character(UnicodeScalar(A_ASCII))
+
 str.remove(at: str.index(str.startIndex, offsetBy: 1))
 
 str.split(separator: " ")
