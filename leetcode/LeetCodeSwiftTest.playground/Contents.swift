@@ -52,6 +52,9 @@ import Cocoa
 // strStr("hello", "ll")
 
 var str = "xensow"
+for c in str {
+    print(c)
+}
 /// 前三位
 str.prefix(3)
 /// 后三位
@@ -60,7 +63,8 @@ str.suffix(3)
 let char = str[str.index(str.startIndex, offsetBy: 1)]
 char.isLetter
 
-let a_ASCII = UnicodeScalar("a")
+let a : Character = "a"
+let a_ASCII = Int(a.asciiValue!)
 let A_ASCII = UnicodeScalar("A")
 let Z_ASCII = UnicodeScalar("Z")
 let A_Int = Character(UnicodeScalar(A_ASCII))
