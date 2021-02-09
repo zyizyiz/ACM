@@ -85,8 +85,14 @@ for item in intArr {
 
 intArr.insert(0, at: 0)
 
+let intSet = Set.init(intArr)
+
 for item in stride(from: 10, to: 2, by: 1) {
     print(item)
+}
+
+for index in 0...intArr.count {
+    print(index)
 }
 
 intArr.last
